@@ -1,0 +1,95 @@
+.tree-node {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Box border */
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .node-header {
+    display: flex;
+    justify-content: space-between; /* Push buttons to the right */
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+  }
+  
+  .node-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .collapse-btn {
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .node-name {
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #007BFF;
+  }
+  
+  .node-name:hover {
+    text-decoration: underline;
+  }
+  
+  .edit-input {
+    margin-right: 10px;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .add-child-btn, .remove-child-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-child-btn:hover, .remove-child-btn:hover {
+    background-color: #005f6b;
+  }
+  
+  .remove-child-btn {
+    background-color: #f44336; /* Red button for remove */
+  }
+  
+  .remove-child-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Colors for different levels */
+  .level-0 {
+    background-color: #f0f0f0;
+  }
+  
+  .level-1 {
+    background-color: #e0f7fa;
+  }
+  
+  .level-2 {
+    background-color: #ffebee;
+  }
+  
+  .level-3 {
+    background-color: #e8f5e9;
+  }
+  
+  .children {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
